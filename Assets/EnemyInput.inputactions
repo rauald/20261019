@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "name": "EnemyInput",
+    "maps": [
+        {
+            "name": "Enemy",
+            "id": "88e70cf1-e68c-43b2-a19d-b49ee194f966",
+            "actions": [
+                {
+                    "name": "Damage",
+                    "type": "Button",
+                    "id": "e03159b2-f3a0-4ba1-822e-e0503255ee5d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f29bdc74-0f14-4712-8666-c70c1565aacd",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";PC",
+                    "action": "Damage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": []
+        }
+    ]
+}
